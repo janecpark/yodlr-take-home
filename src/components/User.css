@@ -1,0 +1,25 @@
+.card-custom {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: transform 0.2s ease;
+}
+.card-custom:hover {
+  transform: scale(1.05);
+}
+
+.btn:hover {
+  background-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: white !important;
+}
+
+.btn:active,
+.btn:active:focus {
+  box-shadow: none;
+}
+
+.btn,
+btn:hover {
+  font-family: 'Roboto Condensed';
+  text-transform: uppercase;
+}
